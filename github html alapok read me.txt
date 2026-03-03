@@ -16,3 +16,10 @@ hiba esetén:
 
 git config --global user.name "Biró Lukács"
 git config --global user.email "birolukacs@gmail.com"
+
+
+Ha minden ok, feltőltéshez ez kell:
+
+git add .
+git commit -m "ez egy újabb módosítás 2"
+git push
