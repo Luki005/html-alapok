@@ -30,7 +30,8 @@
 
 body {
     /* Háttérszín */
-    background-color: #3695cc;
+    background: #e5ffb0;
+background: linear-gradient(90deg, rgba(229, 255, 176, 1) 25%, rgba(164, 232, 28, 1) 50%, rgba(237, 221, 83, 1) 75%);
     /* Betűtípus */
     font-family: sans-serif;
     /* Betűszín */
@@ -61,6 +62,11 @@ body {
 
 .alcim {
     /* Alcím stílusa */
+    background-color: aliceblue;
+    border: 3px solid rgb(19, 188, 0);
+    margin-left: 100px;
+    padding-left: 20px;
+    margin-right: 100px;
 }
 
 
