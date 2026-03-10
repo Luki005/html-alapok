@@ -18,29 +18,34 @@
 /* --- GOOGLE FONTS IMPORTÁLÁS ---
    Cseréld ki a saját választásodra!
    -------------------------------- */
-/* @import url('https://fonts.googleapis.com/css2?family=VALASZD+KI&display=swap'); */
-
+ /*@import url('https://fonts.googleapis.com/css2?family=VALASZD+KI&display=swap');*/
+ @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 /* --- ALAP BEÁLLÍTÁSOK --- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size:x-large;
-    font-family:Arial, Helvetica, sans-serif;
-    color: white;
 }
 
 body {
     /* Háttérszín */
-background: #000000;
-background: radial-gradient(circle, rgba(0, 0, 0, 1) 63%, rgba(0, 148, 2, 1) 64%, rgba(0, 0, 0, 1) 75%);
+    background: #000000;
+    
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 63%, rgba(0, 148, 2, 1) 64%, rgba(0, 0, 0, 1) 75%);
     /* Betűtípus */
     font-family: sans-serif;
     /* Betűszín */
     color: #333333;
     /* Sormagasság */
     line-height: 1.6;
+    
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    
+    color: aliceblue;
 }
 
 
@@ -81,7 +86,7 @@ background: radial-gradient(circle, rgba(0, 0, 0, 1) 63%, rgba(0, 148, 2, 1) 64%
     border: 3px solid rgb(0, 150, 20);
     padding-left: 100px;
     padding-right: 100px;
-    
+
 }
 
 .bevezeto-szoveg p {
