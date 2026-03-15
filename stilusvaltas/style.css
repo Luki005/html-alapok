@@ -52,6 +52,8 @@ body {
 /* --- OLDAL KERET --- */
 .oldal-keret {
     /* Az egész oldal kerete / szélessége */
+    border: hsl(126, 100%, 31%);
+    padding: 50px;
 }
 
 
@@ -63,6 +65,7 @@ body {
 
 .fooldal-cim {
     /* Főcím stílusa */
+    color: rgb(0, 255, 8);
 }
 
 .kiemeles {
@@ -168,12 +171,14 @@ body {
 
 .kulso-link:hover {
     /* Hover effekt a linkekre */
+    color: rgb(24, 142, 103);
 }
 
 
 /* --- LÁBLÉC --- */
 .lablec {
     /* Lábléc háttér, padding, szöveg */
+    padding-bottom: 50px;
 }
 
 .lablec-megjegyzes {
