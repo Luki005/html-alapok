@@ -4,7 +4,7 @@
 
 **Tanszék:** Médiadesign, Budapesti Metropolitan Egyetem  
 **Félév:** 2025/26 tavasz  
-
+aaa
 ---
 
 ## A feladat lényege
