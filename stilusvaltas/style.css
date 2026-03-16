@@ -61,6 +61,7 @@ body {
 .fejlec {
     /* Háttér, padding, szöveg igazítás */
     text-align: center;
+    color:rgb(100, 246, 89);
 }
 
 .fooldal-cim {
@@ -94,6 +95,7 @@ body {
 
 .bevezeto-szoveg p {
     /* Bevezető bekezdések */
+    color: rgb(38, 172, 5);
 }
 
 
