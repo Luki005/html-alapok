@@ -66,7 +66,8 @@ body {
 
 .fooldal-cim {
     /* Főcím stílusa */
-    color: rgb(0, 255, 8);
+    color: rgba(36, 244, 43, 0.716);
+    text-align: center;
 }
 
 .kiemeles {
@@ -78,8 +79,9 @@ body {
     background-color: rgb(0, 0, 0);
     border: 3px solid rgb(0, 150, 20);
     margin-left: 100px;
-    padding-left: 20px;
     margin-right: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 
@@ -88,34 +90,45 @@ body {
     /* A bevezető szekció háttere, padding-ja */
     background-color: rgb(0, 0, 0);
     border: 3px solid rgb(0, 150, 20);
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
 
 }
 
 .bevezeto-szoveg p {
     /* Bevezető bekezdések */
-    color: rgb(38, 172, 5);
+    color: rgb(180, 235, 166);
 }
 
 
 /* --- KÁRTYÁK (a fő tartalom elemei) --- */
 .kartya {
     /* Háttér, padding, margin, border, border-radius, box-shadow */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align:center ;
 }
 
 .kartya-cim {
     /* Kártya címek stílusa */
+    text-align: center;
 }
 
 
 /* --- SZABÁLYOK LISTA --- */
 .szabaly-lista {
     /* Lista stílus (list-style, padding) */
+    text-align: center;
 }
 
 .szabaly {
     /* Egyes szabály elemek */
+    text-align: center;
 }
 
 
@@ -126,14 +139,17 @@ body {
        flex-wrap: wrap;
        gap: ...;
     */
+    text-align: center;
 }
 
 .inspiracio-elem {
     /* Egyes inspiráció kártyák */
+    text-align: center;
 }
 
 .inspiracio-elem h4 {
     /* Inspiráció alcímek */
+    text-align: center;
 }
 
 
