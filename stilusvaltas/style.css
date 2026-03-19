@@ -45,7 +45,7 @@ body {
     font-style: normal;
     font-size: x-large;
     
-    color: aliceblue;
+    color: rgb(231, 255, 232);
 }
 
 
@@ -61,17 +61,27 @@ body {
 .fejlec {
     /* Háttér, padding, szöveg igazítás */
     text-align: center;
-    color:rgb(100, 246, 89);
+    color:rgba(164, 255, 72, 0.878);
 }
 
 .fooldal-cim {
     /* Főcím stílusa */
-    color: rgba(36, 244, 43, 0.716);
+    color: rgb(36, 244, 43);
     text-align: center;
+    background-color: #000000;
+     border: 3px solid rgb(0, 150, 20);
+     margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 10px;
 }
 
 .kiemeles {
     /* A "CSS" szó kiemelése a címben */
+    font-size: 50pt;
+    color: rgb(180, 235, 166)
+    display: inline-block;
 }
 
 .alcim {
@@ -82,6 +92,7 @@ body {
     margin-right: 100px;
     margin-bottom: 40px;
     margin-top: 40px;
+    padding: 10px;
 }
 
 
@@ -94,6 +105,7 @@ body {
     margin-right: 100px;
     margin-top: 40px;
     margin-bottom: 40px;
+    padding: 10px;
     text-align: center;
 
 }
@@ -109,14 +121,21 @@ body {
     /* Háttér, padding, margin, border, border-radius, box-shadow */
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align:center ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
 }
 
 .kartya-cim {
     /* Kártya címek stílusa */
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(100, 208, 0);
 }
 
 
@@ -124,11 +143,19 @@ body {
 .szabaly-lista {
     /* Lista stílus (list-style, padding) */
     text-align: center;
+margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .szabaly {
     /* Egyes szabály elemek */
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 
@@ -140,11 +167,18 @@ body {
        gap: ...;
     */
     text-align: center;
+    display:flex ;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .inspiracio-elem {
     /* Egyes inspiráció kártyák */
     text-align: center;
+    color: rgb(180, 235, 166);
 }
 
 .inspiracio-elem h4 {
@@ -160,31 +194,41 @@ body {
 
 .tech-badge {
     /* Kis címkék stílusa: háttér, padding, border-radius */
+    color: rgb(180, 235, 166);
 }
 
 
 /* --- OLDALSÁV --- */
 .oldalsav {
     /* Oldalsáv háttere, pozíciója */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .oldalsav-cim {
     /* Oldalsáv címek */
+    color: rgb(100, 208, 0);
 }
 
 .szerzo-nev {
     /* Szerző neve — írd át a CSS-ben is ha akarod kiemelni */
+    color: rgb(180, 235, 166);
+    font-size: 25pt;
 }
 
 
 /* --- LINKEK --- */
 .link-lista {
-    /* Link lista stílus */
+    /* Link lista stílus */;
+    padding: 5px;
 }
 
 .kulso-link {
     /* Link stílus: szín, text-decoration */
-    color: aquamarine;
+    color: aquamarine;;
 }
 
 .kulso-link:hover {
@@ -196,11 +240,21 @@ body {
 /* --- LÁBLÉC --- */
 .lablec {
     /* Lábléc háttér, padding, szöveg */
-    padding-bottom: 50px;
+     margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 10px;
+    color: rgb(180, 235, 166);
+    text-align: center;
+    font-size: 15pt;
+    background: black;
+    border: 3px solid rgb(0, 150, 20);
 }
 
 .lablec-megjegyzes {
-    /* Kis megjegyzés a láblécben */
+    /* Kis megjegyzés a láblécben */;
+    color: rgb(247, 23, 53);
 }
 
 
